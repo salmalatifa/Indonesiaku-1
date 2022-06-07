@@ -1,0 +1,26 @@
+/* nav */
+
+Nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0em 5em;
+    position: sticky;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.logo {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-list {
+	display:  flex;
+	text-align: center;
+	margin: 0;
+}
