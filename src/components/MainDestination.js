@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container,Row,Col } from "react-bootstrap";
+import { Container,Row,Col,Card } from "react-bootstrap";
 import destination from "../data/Destination.js";
 import "../styles/MainHome.css";
 
@@ -13,16 +13,18 @@ class MainDestination extends Component {
 						<p className="descrip-text">Temukan keindahan Indonesia dengan mengunjungi destinasi pilihan</p>
 					</Col>
 				</Row>
-				<Row>
+				<Row xs={1} md={2} lg={2} xl={4}>
 				{destination.map((value,  index)  => {
 								return (
-									<Col>
-									<div className="destination-container" key={index + 1}>
-										<div className="destination-image">
-											<img src={value.gambar} alt={value.nama} />
-											<h3 className="destination-text">{value.nama}</h3>	
-										</div>
-									</div>
+									<Col >
+										<a href={value.nama}>
+										<Card key={index + 1}>
+											<Card.Img variant="top" src={value.gambar} alt={value.nama} className="destination-image"/>
+											<Card.Body>
+												<Card.Title className="destination-text">{value.nama}</Card.Title>
+											</Card.Body>
+										</Card>
+										</a>
 									</Col>
 								);
 							})}
