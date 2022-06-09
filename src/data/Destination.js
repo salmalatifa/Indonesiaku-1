@@ -8,7 +8,7 @@ import bandungimg from "../images/content/bandung.jpg";
 import malangimg from "../images/content/malang.jpg";
 
 const destination = [
-  {
+  {id:1,
     nama: "Jakarta",
     gambar: jakaartaimg,
     wisata: [ {
@@ -24,7 +24,7 @@ const destination = [
           "<p>Objek wisata pantai Kuta akan selalu masuk dalam daftar tempat wisata di kunjungi di pulau Bali bagi wisatawan yang pertama kali liburan ke Bali.Ada beberapa hal utama yang membuat pantai Kuta ramai mendapat kunjungan wisatawan.Seperti, menawarkan pantai pasir putih dengan bentangan garis pantai sangat panjang, serta pemandangan sunset.</p><p>Kemudian, ombak di pantai Kuta lumayan besar dan cocok untuk aktivitas selancar pemula.Jika anda ingin berenang bersama anak - anak, maka anak anda harus selalu dalam pengawasan orang dewasa. </p><p> Aktivitas utama wisatawan saat liburan ke pantai Kuta adalah duduk santai di tepi pantai, berenang, jalan - jalan, dan melihat pemandangan sunset.Karena tingginya minat wisatawan liburan ke pantai Kuta, maka hampir setiap hari jalan raya sekitar pantai Kuta akan terjadi kemacetan. </p> ",
       }]
   },
-  {
+  {id:2,
     nama: "Bali",
     gambar: baliimg,
     wisata: [
@@ -42,7 +42,7 @@ const destination = [
       }
     ]
   },
-  {
+  {id:3,
     nama: "Yogyakarta",
     gambar: jogjaimg,
 	wisata: [
@@ -60,7 +60,7 @@ const destination = [
 		}
 	  ]
   },
-  {
+  {id:4,
     nama: "Semarang",
     gambar: semarangimg,
 	wisata: [
@@ -78,7 +78,7 @@ const destination = [
 		}
 	  ]
   },
-  {
+  {id:5,
     nama: "Lombok",
     gambar: lombokimg,
 	wisata: [
@@ -96,7 +96,7 @@ const destination = [
 		}
 	  ]
   },
-  {
+  {id:6,
     nama: "NTT",
     gambar: nttimg,
 	wisata: [
@@ -114,7 +114,7 @@ const destination = [
 		}
 	  ]
   },
-  {
+  {id:7,
     nama: "Bandung",
     gambar: bandungimg,
 	wisata: [
@@ -132,7 +132,7 @@ const destination = [
 		}
 	  ]
   },
-  {
+  {id:8,
     nama: "Malang",
     gambar: malangimg,
 	wisata: [
