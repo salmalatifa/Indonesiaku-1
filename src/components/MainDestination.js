@@ -28,8 +28,8 @@ class MainDestination extends Component {
                       <img src={value.gambar} alt={value.nama} />{" "}
                       <h3 className="destination-text"> {value.nama} </h3>{" "}
                     </div>{" "}
-                  </div>
-                </a>
+                  </div>{" "}
+                </a>{" "}
               </Col>
             );
           })}{" "}
