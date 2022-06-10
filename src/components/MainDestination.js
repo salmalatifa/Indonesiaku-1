@@ -16,9 +16,9 @@ class MainDestination extends Component {
 				<Row xs={1} md={2} lg={2} xl={4}>
 				{destination.map((value,  index)  => {
 								return (
-									<Col >
+									<Col key={index}>
 										<a href={value.nama}>
-										<Card key={index + 1}>
+										<Card>
 											<Card.Img variant="top" src={value.gambar} alt={value.nama} className="destination-image"/>
 											<Card.Body>
 												<Card.Title className="destination-text">{value.nama}</Card.Title>
