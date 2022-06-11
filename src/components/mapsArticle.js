@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Maps(props) {
-    
   return (
     <iframe
       title="gMaps"
