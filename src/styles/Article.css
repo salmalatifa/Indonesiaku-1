@@ -14,17 +14,6 @@ button {
     margin: 44px;
 }
 
-header {
-    min-height: 400px;
-    height: 85vh;
-    width: 100%;
-    background-image: url("../images/hero/bali.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
 nav {
     display: flex;
     align-items: center;
@@ -65,10 +54,7 @@ nav ul li a {
 .hero {
     color: white;
     font-size: 1em;
-    text-align: center;
     width: 100%;
-    position: absolute;
-    top: 40vh;
 }
 
 main {
