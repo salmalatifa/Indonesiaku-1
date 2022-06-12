@@ -5,7 +5,6 @@ import { v4 as uuid } from "uuid";
 
 class itemDestination extends React.Component {
   render() {
-    const destiny = data.wisata;
 
     return (
       <div>
